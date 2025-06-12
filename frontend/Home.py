@@ -92,9 +92,9 @@ def load_img_as_base64(path):
     with open(path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-grab_logo = load_img_as_base64("images/grab.png")
-shopee_logo = load_img_as_base64("images/shopee.png")
-panda_logo = load_img_as_base64("images/panda.png")
+grab_logo = load_img_as_base64("frontend/images/grab.png")
+shopee_logo = load_img_as_base64("frontend/images/shopee.png")
+panda_logo = load_img_as_base64("frontend/images/panda.png")
 
 # Display cards with logos
 st.markdown(f"""
