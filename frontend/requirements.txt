@@ -3,3 +3,4 @@ pandas
 panda
 matplotlib
 wordcloud
+openpyxl
